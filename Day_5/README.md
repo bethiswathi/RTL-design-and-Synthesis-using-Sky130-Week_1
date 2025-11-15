@@ -1,5 +1,5 @@
-# Optimization in Synthesis
-## What is Synthesis Optimization
+# 📝 Optimization in Synthesis
+## 🧩 What is Synthesis Optimization
 When you synthesize RTL to a netlist of gates, the initial netlist may not be efficient.
 - Optimization improves by
     - Reducing area
