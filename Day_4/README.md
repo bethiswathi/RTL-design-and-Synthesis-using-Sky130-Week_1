@@ -1,6 +1,6 @@
-# GLS, Synthesis-Simulation Mismatch and Blocking/Mon-Blocking Statements
+# 🔷 GLS, Synthesis-Simulation Mismatch and Blocking/Mon-Blocking Statements
 
-## Why is gate level simulation is necessary
+## 🧠 Why is gate level simulation is necessary
 - Ensures RTL functionality is preserved after mapping to gates
 - Uses actual gate and interconnect delays (via SDF) to catch setup/hold violations
 - verifies circuit stability beyond ideal RTL simulation
@@ -9,7 +9,7 @@
   
 <img width="619" height="292" alt="image" src="https://github.com/user-attachments/assets/481af123-f933-40ab-bd65-e89647b2909f" />
 
-## Synthesis Simulation Mismatches
+## ⏳ Synthesis Simulation Mismatches
 It occurs when RTL code is not written in synthesis-frendly way. The following are the common causes
 - Incomplete sensitivity list: simulation dosen't update correctly
 - Blocking vs non-blocking misuse: different behavior in sim vs hardware
